@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2022 Daniel Griswold
+#
+# SPDX-License-Identifier: MIT
+
+adafruit_ahtx0
+adafruit_bh1750
+adafruit_minimqtt
+adafruit_requests
+adafruit_hcsr04
+asyncio
