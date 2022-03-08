@@ -17,7 +17,6 @@ import json
 import asyncio
 import digitalio
 import microcontroller
-import supervisor
 import wifi
 import socketpool
 import adafruit_requests
@@ -30,8 +29,6 @@ import adafruit_hcsr04
 
 from secrets import secrets  # pylint: disable=wrong-import-order
 from config import config  # pylint: disable=wrong-import-order
-
-supervisor.disable_autoreload()
 
 
 class Garage_state:
